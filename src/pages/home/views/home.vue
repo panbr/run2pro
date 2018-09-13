@@ -19,7 +19,7 @@
                                 <div class="course-card-info">
                                     <span class="le" v-for="le in item.level">{{le}}</span>
                                     <span class="course-star-box">
-                                        <i class="fa fa-star-o" v-for="star in item.star"></i>
+                                        <i :class="{'fa-star-o': !star, 'fa-star': star}" class="fa" v-for="star in item.star"></i>
                                     </span>
                                 </div>
                             </div>
