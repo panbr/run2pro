@@ -1,0 +1,14 @@
+.container {
+    position: relative;
+    z-index: 1;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1152px;
+    
+    &:after {
+        clear: both;
+        content: " ";
+        display: table;
+    }
+}
+

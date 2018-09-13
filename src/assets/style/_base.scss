@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: SF Pro SC,SF Pro Text,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+body {
+    font-family: SF Pro SC,SF Pro Text,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 1.5;
+    color: #555;
+    background: #fff;
+}
+
+a {
+    color: #487bb2;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1152px;
+    
+    &:after {
+        clear: both;
+        content: " ";
+        display: table;
+    }
+}
+
