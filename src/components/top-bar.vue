@@ -1,9 +1,9 @@
 <template>
     <div class="navbar">
         <div class="container">
-            <a class="navbar-brand logo pull-left" href="/"><img :src="logoUrl" alt="logo"><span> 中国电信</span></a>
+            <a class="navbar-brand logo pull-left" href="/"><img :src="logoUrl" alt="logo"><span> 闰土编程</span></a>
             <ul class="nav-list pull-right">
-                <li><a href="tel:156-2647-0703"><strong><i class="fa fa-comments-o"></i> ddd</strong></a></li>
+                <li><a href="http://run2code.com" target="_blank"><strong><i class="fa fa-comments-o"></i> 预约试听</strong></a></li>
                 <li><a href="tel:156-2647-0703"><strong><i class="fa fa-phone"></i> 156-2647-0703</strong></a></li>
             </ul>
         </div>
@@ -35,7 +35,7 @@ export default {
         margin: 0;
         
         span {
-            font-size: 24px;
+            font-size: 20px;
             font-family: 'aircut', STXihei, SimHei, sans-serif;
             margin: 0;
             padding: 0;
@@ -53,9 +53,10 @@ export default {
     .nav-list {
         li {
             float: left;
-            margin-left: 10px;
+            margin-left: 15px;
             
             a {
+                font-size: 14px;
                 color: #f5f5f5;
             }
         }

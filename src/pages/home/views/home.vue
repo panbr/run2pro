@@ -7,7 +7,7 @@
                 </h3>
                 <div class="content">
                     <div class="course-card-container" v-for="item in con.list">
-                        <a target="_blank" class="course-card" href="#">
+                        <a target="_blank" :href="item.href" class="course-card">
                             <div class="course-card-top">
                                 <img :src="item.imgUrl" class="course-banner" alt="">
                                 <div class="course-label">
